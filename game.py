@@ -9,7 +9,7 @@ michelangelo.show_stats()
 jack_sparrow.show_stats()
 
 i = 0
-while(i< 100):
+while(i+1):
     i+=1
     if(i % michelangelo.speed == 0):
         michelangelo.attack(jack_sparrow)
